@@ -38,6 +38,7 @@
         1,
         1,
         1,
+        1,
         null
       ],
       "/home/ubuntu/workspace/ChoreTracker/app/models/application_record.rb": [
@@ -327,6 +328,6 @@
         0
       ]
     },
-    "timestamp": 1552765883
+    "timestamp": 1552766609
   }
 }
