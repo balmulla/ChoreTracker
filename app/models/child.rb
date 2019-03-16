@@ -11,4 +11,5 @@ class Child < ApplicationRecord
     end
     
     scope :alphabetical, -> { order('first_name ASC') }
+    scope :active, -> { where("active = ?", true) }
 end
