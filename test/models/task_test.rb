@@ -22,7 +22,7 @@ class TaskTest < ActiveSupport::TestCase
     should "have a scope to alphabetize tasks" do
         assert_equal ["Mow grass", "Shovel driveway", "Stack wood", "Sweep floor", "Wash dishes"], Task.alphabetical.map{|t| t.name}
     end
-    should "haveascopetoselectonlyactivetasks" do
+    should "have a scope to select only active tasks" do
         assert_equal ["Mow grass", "Shovel driveway", "Sweep floor", "Wash dishes"], Task.active.alphabetical.map{|t| t.name} 
     end
   end 
