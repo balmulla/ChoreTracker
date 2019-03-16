@@ -12,4 +12,8 @@ class Child < ApplicationRecord
     
     scope :alphabetical, -> { order('first_name ASC') }
     scope :active, -> { where("active = ?", true) }
+    
+    def points_earned
+        self.chores.done.inject(0){|sum,chore| sum += chore.task.points}
+    end
 end
