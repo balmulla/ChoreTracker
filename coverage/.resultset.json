@@ -36,11 +36,34 @@
     "coverage": {
       "/home/ubuntu/workspace/ChoreTracker/app/models/task.rb": [
         1,
-        null,
-        null,
+        1,
+        1,
         null
       ],
       "/home/ubuntu/workspace/ChoreTracker/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/ChoreTracker/app/models/chore.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/home/ubuntu/workspace/ChoreTracker/app/models/child.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
         1,
         1,
         null
@@ -280,29 +303,6 @@
         0,
         0
       ],
-      "/home/ubuntu/workspace/ChoreTracker/app/models/chore.rb": [
-        0,
-        null,
-        null,
-        0
-      ],
-      "/home/ubuntu/workspace/ChoreTracker/app/models/child.rb": [
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0
-      ],
       "/home/ubuntu/workspace/ChoreTracker/app/helpers/tasks_helper.rb": [
         0,
         0
@@ -320,6 +320,6 @@
         0
       ]
     },
-    "timestamp": 1552763599
+    "timestamp": 1552764127
   }
 }
