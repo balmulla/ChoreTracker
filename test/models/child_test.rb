@@ -33,5 +33,8 @@ class ChildTest < ActiveSupport::TestCase
       assert_equal ["Alex", "Mark"], Child.active.alphabetical.map{|c| c.first_name}
     end 
   end
+  
+  
 end
+
 
